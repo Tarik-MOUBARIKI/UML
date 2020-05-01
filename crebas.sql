@@ -117,5 +117,18 @@ WHERE idClient =2;
 /*==============================================================*/
 DELETE FROM Client WHERE idClient='1';
 select * from newtm.client;
+/*==============================================================*/
+/* Create user +  permission                                  */
+/*==============================================================*/
+CREATE USER 'tarek'@'localhost' IDENTIFIED BY 'azerty';
+
+ grant insert on newtm.* to 'tarek'@'localhost';
+
+---------------------------------------------------------------------
+
+CREATE USER 'moubariki'@'localhost' IDENTIFIED BY 'qwerty';
+
+ grant ALL PRIVILEGES on newtm.* to 'moubariki'@'localhost';
+ /*==============================================================*/
 
 
