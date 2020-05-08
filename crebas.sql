@@ -45,7 +45,7 @@ INSERT INTO Client values (1,"tarek","tarek@youcode.com","azerty");
 INSERT INTO Client values (2,"abdo","abdo@youcode.com","qwerty");
 
 INSERT INTO Voiture values (1,"BMW.PNG","BMW");
-INSERT INTO Voiture values (1,"DACIA.PNG","DACIA");
+INSERT INTO Voiture values (2,"DACIA.PNG","DACIA");
 
 INSERT INTO Reservation values (1,1,"20_05_15","20_05_18");
 INSERT INTO Reservation values (2,2,"20_05_17","20_05_19");
